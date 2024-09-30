@@ -41,7 +41,7 @@ async function solve() {
   try {
     const data = await readFile(indexFilePath);
     const jsonData = JSON.parse(data);
-    const { topics } = jsonData;
+    const { name, topics } = jsonData;
 
     const contentPromise = topics.map(async ({ id, directory_path }) => {
       const dirPathName = path.join(__dirname, `${directory_path}/index.json`);
@@ -55,7 +55,7 @@ async function solve() {
 
     const result = await Promise.all(contentPromise);
 
-    await writeFile(outputPath, JSON.stringify(result));
+    await writeFile(outputPath, JSON.stringify({ name, topics: result }));
   } catch (error) {
     console.log(error);
   }

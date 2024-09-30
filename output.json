@@ -1,38 +1,41 @@
-[
-  {
-    "id": "topic-01",
-    "directory_path": "topic_01",
-    "content": [
-      {
-        "name": "Part 1",
-        "content": "# Part 1\n\nThis is the content for Part 1\n"
-      },
-      {
-        "name": "Part 2",
-        "content": "# Part 2\n\nThis is the content for Part 2\n"
-      },
-      {
-        "name": "Part 3",
-        "content": "# Part 3\n\nThis is the content for Part 3\n"
-      }
-    ]
-  },
-  {
-    "id": "topic-02",
-    "directory_path": "topic_02",
-    "content": [
-      {
-        "name": "Part 4",
-        "content": "# Part 4\n\nThis is the content for Part 4\n"
-      },
-      {
-        "name": "Part 5",
-        "content": "# Part 5\n\nThis is the content for Part 5\n"
-      },
-      {
-        "name": "Part 6",
-        "content": "# Part 6\n\nThis is the content for Part 6\n"
-      }
-    ]
-  }
-]
+{
+  "name": "Full Stack JavaScript",
+  "topics": [
+    {
+      "id": "topic-01",
+      "directory_path": "topic_01",
+      "content": [
+        {
+          "name": "Part 1",
+          "content": "# Part 1\n\nThis is the content for Part 1\n"
+        },
+        {
+          "name": "Part 2",
+          "content": "# Part 2\n\nThis is the content for Part 2\n"
+        },
+        {
+          "name": "Part 3",
+          "content": "# Part 3\n\nThis is the content for Part 3\n"
+        }
+      ]
+    },
+    {
+      "id": "topic-02",
+      "directory_path": "topic_02",
+      "content": [
+        {
+          "name": "Part 4",
+          "content": "# Part 4\n\nThis is the content for Part 4\n"
+        },
+        {
+          "name": "Part 5",
+          "content": "# Part 5\n\nThis is the content for Part 5\n"
+        },
+        {
+          "name": "Part 6",
+          "content": "# Part 6\n\nThis is the content for Part 6\n"
+        }
+      ]
+    }
+  ]
+}
