@@ -1,0 +1,18 @@
+{
+  "id": "topic-01",
+  "name": "Topic 1",
+  "parts": [
+    {
+      "name": "Part 1",
+      "file_location": "topic_01/part1.md"
+    },
+    {
+      "name": "Part 2",
+      "file_location": "topic_01/part2.md"
+    },
+    {
+      "name": "Part 3",
+      "file_location": "topic_01/part3.md"
+    }
+  ]
+}

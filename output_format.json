@@ -1,0 +1,24 @@
+{
+  "name": "Full Stack JavaScript",
+  "topics": [
+    {
+      "id": "topic-01",
+      "name": "Topic 1",
+      "directory_path": "topic_01",
+      "parts": [
+        {
+          "name": "Part 1",
+          "content": "Part 1 file content"
+        },
+        {
+          "name": "Part 2",
+          "content": "Part 2 file content"
+        },
+        {
+          "name": "Part 3",
+          "content": "Part 3 file content"
+        }
+      ]
+    }
+  ]
+}

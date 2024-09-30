@@ -1,0 +1,13 @@
+{
+  "name": "Full Stack JavaScript",
+  "topics": [
+    {
+      "id": "topic-01",
+      "directory_path": "topic_01"
+    },
+    {
+      "id": "topic-02",
+      "directory_path": "topic_02"
+    }
+  ]
+}
